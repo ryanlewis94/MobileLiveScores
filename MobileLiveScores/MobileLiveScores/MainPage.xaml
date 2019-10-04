@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:MobileLiveScores.ViewModels"
+             mc:Ignorable="d"
+             x:Class="MobileLiveScores.MainPage">
+    <ContentPage.BindingContext>
+        <vm:MainViewModel />
+    </ContentPage.BindingContext>
+    <Grid>
+        <ListView ItemsSource="{Binding CountryList}"
+                  SelectionMode="None"
+                  RowHeight="{Binding rowHeight}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding name}"
+                                   FontSize="16"
+                                   TextColor="Black"/>
+                            <ListView ItemsSource="{Binding leagueList}">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <ViewCell>
+                                            <StackLayout>
+                                                <Label Text="{Binding name}"
+                                                       FontSize="14"/>
+                                                <!--<ListView ItemsSource="{Binding matchList}">
+                                                    <ListView.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <ViewCell>
+                                                                <StackLayout Orientation="Horizontal">
+                                                                    <Label Text="{Binding home_name}"/>
+                                                                    <StackLayout>
+                                                                        <Label Text="{Binding score}"/>
+                                                                        <Label Text="{Binding time}"/>
+                                                                    </StackLayout>
+                                                                    <Label Text="{Binding away_name}"/>
+                                                                </StackLayout>
+                                                            </ViewCell>
+                                                        </DataTemplate>
+                                                    </ListView.ItemTemplate>
+                                                </ListView>-->
+                                            </StackLayout>
+                                        </ViewCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+
+</ContentPage>

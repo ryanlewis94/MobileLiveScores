@@ -1,0 +1,12 @@
+C:\Radis\Sandbox\RyanLewis\MobileLiveScores\MobileLiveScores\MobileLiveScores\bin\Debug\netstandard2.0\MobileLiveScores.deps.json
+C:\Radis\Sandbox\RyanLewis\MobileLiveScores\MobileLiveScores\MobileLiveScores\bin\Debug\netstandard2.0\MobileLiveScores.dll
+C:\Radis\Sandbox\RyanLewis\MobileLiveScores\MobileLiveScores\MobileLiveScores\bin\Debug\netstandard2.0\MobileLiveScores.pdb
+C:\Radis\Sandbox\RyanLewis\MobileLiveScores\MobileLiveScores\MobileLiveScores\obj\Debug\netstandard2.0\MobileLiveScores.csprojAssemblyReference.cache
+C:\Radis\Sandbox\RyanLewis\MobileLiveScores\MobileLiveScores\MobileLiveScores\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Radis\Sandbox\RyanLewis\MobileLiveScores\MobileLiveScores\MobileLiveScores\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Radis\Sandbox\RyanLewis\MobileLiveScores\MobileLiveScores\MobileLiveScores\obj\Debug\netstandard2.0\MobileLiveScores.csproj.CoreCompileInputs.cache
+C:\Radis\Sandbox\RyanLewis\MobileLiveScores\MobileLiveScores\MobileLiveScores\obj\Debug\netstandard2.0\MobileLiveScores.AssemblyInfoInputs.cache
+C:\Radis\Sandbox\RyanLewis\MobileLiveScores\MobileLiveScores\MobileLiveScores\obj\Debug\netstandard2.0\MobileLiveScores.AssemblyInfo.cs
+C:\Radis\Sandbox\RyanLewis\MobileLiveScores\MobileLiveScores\MobileLiveScores\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Radis\Sandbox\RyanLewis\MobileLiveScores\MobileLiveScores\MobileLiveScores\obj\Debug\netstandard2.0\MobileLiveScores.dll
+C:\Radis\Sandbox\RyanLewis\MobileLiveScores\MobileLiveScores\MobileLiveScores\obj\Debug\netstandard2.0\MobileLiveScores.pdb
